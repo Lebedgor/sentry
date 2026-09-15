@@ -377,7 +377,7 @@ export function Footer() {
             <p className="mt-1">
               Designed &amp; Developed by{" "}
               <a
-                href="https://github.com/Lebedgor"
+                href="https://lebedev-labs.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
                 className="font-medium text-zinc-500 hover:text-zinc-950"
