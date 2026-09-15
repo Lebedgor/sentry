@@ -372,7 +372,20 @@ export function Footer() {
           ))}
         </div>
         <div className="mt-12 flex flex-col gap-2 border-t border-zinc-200 pt-6 sm:flex-row sm:items-center sm:justify-between">
-          <p className="text-xs text-zinc-400">© 2026 SENTRY. A portfolio concept — not a real product.</p>
+          <div className="text-xs text-zinc-400">
+            <p>© 2026 SENTRY. A portfolio concept — not a real product.</p>
+            <p className="mt-1">
+              Designed &amp; Developed by{" "}
+              <a
+                href="https://github.com/Lebedgor"
+                target="_blank"
+                rel="noreferrer"
+                className="font-medium text-zinc-500 hover:text-zinc-950"
+              >
+                Lebedev Labs
+              </a>
+            </p>
+          </div>
           <p className="text-xs text-zinc-400">SOC 2 Type II · ISO 27001 · GDPR ready</p>
         </div>
       </div>
